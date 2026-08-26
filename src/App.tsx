@@ -31,25 +31,25 @@ function App() {
 
   return (
     <div className="flex h-screen bg-gray-100 overflow-hidden">
-      <aside className="w-120 h-screen bg-white border-r border-slate-200 flex flex-col flex-none">
+      <aside className="w-90 h-screen bg-white border-r border-slate-200 flex flex-col flex-none">
         <div className="flex items-center justify-center">
           <img src="https://move-global.axonstech.com/assets/AxonsMoveIcon-C51yxfQz.svg" alt="" className="w-20 h-20" />
           <div className="sticky p-5 z-10 top-0 border-b border-slate-200">
-            <div className="text-3xl font-bold text-slate-900">Axons Move</div>
+            <div className="text-2xl font-bold text-slate-900">Axons Move</div>
             <div className="text-xl text-slate-400">Documentation</div>
           </div>        
         </div>
         <nav className="flex-1 min-h-0 p-3 overflow-y-auto">
           {sections.map(section => (
             <div key={section.id} className="mb-4">
-              <div className="flex items-center gap-2 px-2 py-1 text-xl font-semibold text-slate-500 uppercase">               
+              <div className="flex items-center gap-2 px-2 py-1 text-lg font-semibold text-slate-500 uppercase">               
                 <span>{section.label}</span>               
               </div>
               {section.items.map(item => (
                   <button 
                     key={item.id}                 
                     onClick={() => setActiveId(item.id)}
-                    className={`w-full text-left pl-8 pr-4 py-4 rounded-md text-lg block ${
+                    className={`w-full text-left pl-8 pr-4 py-4 rounded-md text-md block ${
                       activeId === item.id 
                       ? 'bg-blue-50 text-blue-800 font-medium' 
                       : 'text-slate-600 hover:bg-slate-100'

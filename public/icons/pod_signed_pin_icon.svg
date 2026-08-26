@@ -1,0 +1,31 @@
+<svg width="200" height="240" viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer white halo -->
+  <path d="M100 8
+           C 148 8 186 46 186 94
+           C 186 146 130 200 100 232
+           C 70 200 14 146 14 94
+           C 14 46 52 8 100 8 Z"
+        fill="#FFFFFF"/>
+
+  <!-- Blue pin body (slightly inset to create white outline) -->
+  <path d="M100 18
+           C 143 18 177 52 177 94
+           C 177 142 126 191 100 220
+           C 74 191 23 142 23 94
+           C 23 52 57 18 100 18 Z"
+        fill="#1565D8"/>
+
+  <!-- Phone body -->
+  <rect x="70" y="60" width="42" height="70" rx="7" fill="#FFFFFF"/>
+  <!-- Phone screen notch -->
+  <rect x="83" y="68" width="16" height="3.5" rx="1.75" fill="#1565D8"/>
+  <!-- Phone home indicator -->
+  <circle cx="91" cy="122" r="3" fill="#1565D8"/>
+
+  <!-- Check badge circle -->
+  <circle cx="116" cy="104" r="24" fill="#1565D8" stroke="#FFFFFF" stroke-width="5"/>
+  <!-- Checkmark -->
+  <path d="M105 104 L113 112 L128 96"
+        fill="none" stroke="#FFFFFF" stroke-width="5"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

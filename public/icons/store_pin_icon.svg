@@ -1,0 +1,44 @@
+<svg width="200" height="240" viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer white halo -->
+  <path d="M100 8
+           C 148 8 186 46 186 94
+           C 186 146 130 200 100 232
+           C 70 200 14 146 14 94
+           C 14 46 52 8 100 8 Z"
+        fill="#FFFFFF"/>
+
+  <!-- Orange pin body (slightly inset to create white outline) -->
+  <path d="M100 18
+           C 143 18 177 52 177 94
+           C 177 142 126 191 100 220
+           C 74 191 23 142 23 94
+           C 23 52 57 18 100 18 Z"
+        fill="#F5921B"/>
+
+  <!-- Storefront awning (scalloped canopy) -->
+  <path d="M66 68
+           C 66 62 70 58 76 58
+           L 124 58
+           C 130 58 134 62 134 68
+           L 134 76
+           C 134 81 130 85 125 85
+           C 121 85 118 82 118 78
+           C 118 82 115 85 111 85
+           C 107 85 104 82 104 78
+           C 104 82 101 85 97 85
+           C 93 85 90 82 90 78
+           C 90 82 87 85 83 85
+           C 78 85 74 81 74 76
+           Z"
+        fill="#FFFFFF"/>
+
+  <!-- Building body -->
+  <rect x="72" y="90" width="56" height="42" fill="#FFFFFF"/>
+  <!-- Cut-out to make it read as a storefront (orange gap between awning and walls) -->
+  <rect x="72" y="90" width="56" height="5" fill="#F5921B"/>
+
+  <!-- Door -->
+  <rect x="90" y="106" width="15" height="26" fill="#F5921B"/>
+  <!-- Window -->
+  <rect x="112" y="102" width="12" height="16" fill="#F5921B"/>
+</svg>

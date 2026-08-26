@@ -49,7 +49,7 @@ function App() {
                   <button 
                     key={item.id}                 
                     onClick={() => setActiveId(item.id)}
-                    className={`w-full text-left pl-8 pr-4 py-4 rounded-md text-md block ${
+                    className={`w-full text-left pl-8 pr-4 py-4 rounded-md text-sm block ${
                       activeId === item.id 
                       ? 'bg-blue-50 text-blue-800 font-medium' 
                       : 'text-slate-600 hover:bg-slate-100'
@@ -68,7 +68,7 @@ function App() {
 
       <main className="flex-1 overflow-y-auto font-sans">
         <TopBar />
-        <div className="max-w-6xl mx-auto px-10 py-10">
+        <div className="max-w-4xl mx-auto px-10 py-10">
           <ActivePage />
         </div>
       </main>

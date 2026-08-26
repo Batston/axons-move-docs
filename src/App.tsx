@@ -49,7 +49,7 @@ function App() {
                   <button 
                     key={item.id}                 
                     onClick={() => setActiveId(item.id)}
-                    className={`w-full text-left pl-8 pr-4 py-2 rounded-md text-xs block ${
+                    className={`w-full text-left pl-8 pr-4 py-3 rounded-md text-xs block ${
                       activeId === item.id 
                       ? 'bg-blue-50 text-blue-800 font-medium' 
                       : 'text-slate-600 hover:bg-slate-100'

@@ -14,14 +14,14 @@ import QuyTrinh from "./sections/quy-trinh";
 
 const pageContent: Record<string, () => JSX.Element> = {
   "gioi-thieu": GioiThieu,
-  "quy-trinh": QuyTrinh,
-  "rmt01500": rmt01500,
-  "rmt01400": rmt01400,
+  //"quy-trinh": QuyTrinh,
+  //"rmt01500": rmt01500,
+  //"rmt01400": rmt01400,
   "rmt06000": rmt06000,
-  "dpi02000": dpi02000,
-  "dpr01200": dpr01200,
+  //"dpi02000": dpi02000,
+  //"dpr01200": dpr01200,
   "dpi07000": dpi07000,
-  "dpr07000": dpr07000,
+  //"dpr07000": dpr07000,
   "ho-tro-ky-thuat": HoTroKyThuat,
 }
 

@@ -42,14 +42,14 @@ function App() {
         <nav className="flex-1 min-h-0 p-3 overflow-y-auto">
           {sections.map(section => (
             <div key={section.id} className="mb-4">
-              <div className="flex items-center gap-2 px-2 py-1 text-lg font-semibold text-slate-500 uppercase">               
+              <div className="flex items-center gap-2 px-2 py-1 text-md font-semibold text-slate-500 uppercase">               
                 <span>{section.label}</span>               
               </div>
               {section.items.map(item => (
                   <button 
                     key={item.id}                 
                     onClick={() => setActiveId(item.id)}
-                    className={`w-full text-left pl-8 pr-4 py-2 rounded-md text-sm block ${
+                    className={`w-full text-left pl-8 pr-4 py-2 rounded-md text-xs block ${
                       activeId === item.id 
                       ? 'bg-blue-50 text-blue-800 font-medium' 
                       : 'text-slate-600 hover:bg-slate-100'

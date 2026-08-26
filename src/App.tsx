@@ -1,16 +1,16 @@
 import { useState, type JSX } from "react";
 import { sections } from "./data/sections";
 import GioiThieu from "./sections/gioi-thieu";
-import rmt01500 from "./sections/rmt01500";
-import rmt01400 from "./sections/rmt01400";
+//import rmt01500 from "./sections/rmt01500";
+//import rmt01400 from "./sections/rmt01400";
 import rmt06000 from "./sections/rmt06000";
-import dpi02000 from "./sections/dpi02000";
-import dpr01200 from "./sections/dpr01200";
+//import dpi02000 from "./sections/dpi02000";
+//import dpr01200 from "./sections/dpr01200";
 import HoTroKyThuat from "./sections/ho-tro-ky-thuat";
-import dpr07000 from "./sections/dpr07000";
+//import dpr07000 from "./sections/dpr07000";
 import dpi07000 from "./sections/dpi07000";
 import TopBar from "./components/TopBar";
-import QuyTrinh from "./sections/quy-trinh";
+//import QuyTrinh from "./sections/quy-trinh";
 
 const pageContent: Record<string, () => JSX.Element> = {
   "gioi-thieu": GioiThieu,

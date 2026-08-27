@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="flex h-screen bg-gray-100 overflow-hidden">
-      <aside className="w-80 h-screen bg-white border-r border-slate-200 flex flex-col flex-none">
+      <aside className="w-85 h-screen bg-white border-r border-slate-200 flex flex-col flex-none">
         <div className="flex items-center justify-center">
           <img src="/favicon.svg" alt="" className="w-20 h-20" />
           <div className="sticky p-5 z-10 top-0 border-b border-slate-200">

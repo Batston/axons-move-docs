@@ -33,7 +33,7 @@ function App() {
     <div className="flex h-screen bg-gray-100 overflow-hidden">
       <aside className="w-90 h-screen bg-white border-r border-slate-200 flex flex-col flex-none">
         <div className="flex items-center justify-center">
-          <img src="https://move-global.axonstech.com/assets/AxonsMoveIcon-C51yxfQz.svg" alt="" className="w-20 h-20" />
+          <img src="/favicon.svg" alt="" className="w-20 h-20" />
           <div className="sticky p-5 z-10 top-0 border-b border-slate-200">
             <div className="text-2xl font-bold text-slate-900">Axons Move</div>
             <div className="text-xl text-slate-400">Documentation</div>
